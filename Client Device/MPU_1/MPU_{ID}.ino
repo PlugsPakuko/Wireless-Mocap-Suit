@@ -97,14 +97,17 @@ void mpu_setup()
     Serial.println(F(")"));
   }
 }
+//ESP8266 setup
+#define WIFI_SSID "---"
+#define WIFI_PASSWORD "---"
+#define MPU_ID "{ID}"
 
-#define WIFI_SSID "โฟล์คเมือง"
-#define WIFI_PASSWORD "iamtheflash"
-#define MPU_ID "1"
-#define API_KEY "AIzaSyCzEyn8tl7YH3il5aTO0BVZRSFXqbuCjJo"
-#define USER_EMAIL "093261@pccm.ac.th"
-#define USER_PASSWORD "qwertyyyy"
-#define DATABASE_URL "https://test2-esp8266-b92a9-default-rtdb.asia-southeast1.firebasedatabase.app"
+//Firebase Setup
+#define API_KEY "#//Firebase Realtime database API Key"
+#define USER_EMAIL "---"
+#define USER_PASSWORD "---"
+#define DATABASE_URL "---"
+
 // Define Firebase objects
 FirebaseData fbdo;
 FirebaseAuth auth;
